@@ -1,0 +1,85 @@
+.input{
+    width: 400px;
+    height: 35px;
+}
+
+
+body div{
+    width: 1600px;
+}
+
+body div div div div div form {
+    margin: 25px;
+}
+
+
+.segment-ones{
+    border : 1px solid rgb(97, 97, 97);
+    padding : 15px;
+    padding-left: 200px;
+    margin-top: 125px;
+    margin-bottom: 125px;
+    background-color: whitesmoke;
+}
+
+.segment-twos{
+    border : 1px solid rgb(97, 97, 97);
+    padding : 15px;
+    padding-left: 200px;
+    margin-top: 125px;
+    margin-left: 50px;
+    background-color: whitesmoke;
+}
+
+body p{
+    font-size: 160%; 
+    text-align: center;
+    border : 3px solid powderblue; 
+    padding : 13px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: -50px;
+}
+
+
+
+
+.segment-one h3::before{
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+
+.segment-one h3{
+    font-family: cursive;
+    color: #fff;
+    letter-spacing: 3px;
+    margin: 10px 0;
+}
+
+.segment-two h2{
+    color: #fff;
+    font-family: Times;
+    letter-spacing: 3px;
+    margin: 10px 0;
+}
+
+.segment-two h2::before{
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+
+.segment-tree h2{
+    color: #fff;
+    font-family: Times;
+    letter-spacing: 3px;
+    margin: 10px 0;
+}
+
+.segment-tree h2::before{
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
